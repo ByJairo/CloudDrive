@@ -4,7 +4,7 @@
     <div class="d-flex justify-content-between align-items-center py-2">
       <h6 class="text-muted mb-0">文件</h6>
       <button class="rounded-button">
-        <icon-arrow-up/>
+
       </button>
     </div>
     <FilesList :files="files"/>
