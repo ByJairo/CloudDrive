@@ -1,12 +1,18 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import MyFiles from './pages/MyFiles.vue'
+import {ref} from 'vue'
 
+const q = ref("")
+
+const getValueFromSearchForm = (value) => {
+  q.value = value
+}
 </script>
 
 <template>
-  <NavBar/>
-  <MyFiles/>
+  <NavBar @handleValueQ="getValueFromSearchForm($event)"/>
+  <MyFiles :q="q"/>
 </template>
 
 <style>

@@ -1,14 +1,3 @@
-<script setup>
-import {reactive} from 'vue'
-
-const toggle = () => {
-  sort.order = sort.order === "asc" ? "desc" : "asc"
-}
-const sort = reactive({
-  column: "name",
-  order: "asc"
-})
-</script>
 <template>
   <button @click="toggle" class="rounded-button">
 
@@ -16,7 +5,23 @@ const sort = reactive({
     <icon-arrow-down v-else/>
   </button>
 </template>
+<script setup>
+import {reactive} from 'vue'
 
+const sort = reactive({
+  column: "name",
+  order: "asc"
+})
+const emits = defineEmits(["sort-change"])
+
+
+const toggle = () => {
+  sort.order = sort.order === "asc" ? "desc" : "asc";
+  emits("sort-change", sort)
+}
+
+
+</script>
 <style scoped>
 
 </style>

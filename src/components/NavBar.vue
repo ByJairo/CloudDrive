@@ -1,6 +1,3 @@
-<script setup>
-
-</script>
 <template>
   <nav class="navbar navbar-light bg-white navbar-expand-lg border-bottom">
     <div class="container">
@@ -9,12 +6,22 @@
         CouldDrive @Jairo
       </a>
       <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control" type="text" placeholder="搜索文件" aria-label="Search"/>
+        <SearchForm @handleValueQ="sendQToApp($event)"/>
       </form>
     </div>
   </nav>
 </template>
+<script setup>
+import SearchForm from '../components/SearchForm.vue'
 
+const emits = defineEmits(["handleValueQ"])
+
+const sendQToApp = (value) => {
+  // console.log(value)
+  emits("handleValueQ", value)
+}
+
+</script>
 <style scoped>
 
 </style>
