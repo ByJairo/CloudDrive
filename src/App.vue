@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import MyFiles from './pages/MyFiles.vue'
+
 </script>
 
 <template>
