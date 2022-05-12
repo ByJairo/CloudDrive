@@ -4,7 +4,7 @@
     <div class="d-flex justify-content-between align-items-center py-2">
       <h6 class="text-muted mb-0">文件</h6>
       <button class="rounded-button">
-
+        <SortToggler/>
       </button>
     </div>
     <FilesList :files="files"/>
@@ -17,6 +17,7 @@ import ActionsBar from '../components/ActionsBar.vue'
 import axios from 'axios'
 import {ref, onMounted} from 'vue'
 import FilesList from '../components/files/FilesList.vue'
+import SortToggler from '../components/SortToggler.vue'
 
 const files = ref([])
 
