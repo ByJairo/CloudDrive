@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "name": "test.jpg",
+      "mimeType": "image/jpeg",
+      "url": "http://localhost:3031/uploads/1.jpg",
+      "path": "/Users/wuhaiyang/Desktop/vue-projects/vue-drive/server/uploads/1.jpg",
+      "createdAt": 1647002525161,
+      "id": 14
+    },
+    {
+      "name": "4.jpg",
+      "mimeType": "image/jpeg",
+      "url": "http://localhost:3031/uploads/4.jpg",
+      "path": "/Users/wuhaiyang/Desktop/vue-projects/vue-drive/server/uploads/4.jpg",
+      "createdAt": 1647079063100,
+      "id": 15
+    },
+    {
+      "name": "3.jpg",
+      "mimeType": "image/jpeg",
+      "url": "http://localhost:3031/uploads/3.jpg",
+      "path": "/Users/wuhaiyang/Desktop/vue-projects/vue-drive/server/uploads/3.jpg",
+      "createdAt": 1647079063101,
+      "id": 16
+    },
+    {
+      "name": "5.jpg",
+      "mimeType": "image/jpeg",
+      "url": "http://localhost:3031/uploads/5.jpg",
+      "path": "/Users/wuhaiyang/Desktop/vue-projects/vue-drive/server/uploads/5.jpg",
+      "createdAt": 1647079759326,
+      "id": 17
+    },
+    {
+      "name": "2.jpg",
+      "mimeType": "image/jpeg",
+      "url": "http://localhost:3031/uploads/2.jpg",
+      "path": "/Users/wuhaiyang/Desktop/vue-projects/vue-drive/server/uploads/2.jpg",
+      "createdAt": 1647080098859,
+      "id": 21
+    },
+    {
+      "name": "03-商品页(购物车详情).png",
+      "mimeType": "image/png",
+      "url": "http://localhost:3031/uploads/03-商品页(购物车详情).png",
+      "path": "/Users/wuhaiyang/Desktop/Vue3-Composition-API视频/Vue3组合式API实战图片上传/vue-drive/server/uploads/03-商品页(购物车详情).png",
+      "createdAt": 1649255002723,
+      "id": 22
+    },
+    {
+      "name": "02-商品页(优惠信息).png",
+      "mimeType": "image/png",
+      "url": "http://localhost:3031/uploads/02-商品页(优惠信息).png",
+      "path": "/Users/wuhaiyang/Desktop/Vue3-Composition-API视频/Vue3组合式API实战图片上传/vue-drive/server/uploads/02-商品页(优惠信息).png",
+      "createdAt": 1649255002724,
+      "id": 23
+    },
+    {
+      "name": "06-评价页.png",
+      "mimeType": "image/png",
+      "url": "http://localhost:3031/uploads/06-评价页.png",
+      "path": "/Users/wuhaiyang/Desktop/Vue3-Composition-API视频/Vue3组合式API实战图片上传/vue-drive/server/uploads/06-评价页.png",
+      "createdAt": 1649255002731,
+      "id": 24
+    },
+    {
+      "name": "04-商品页(选购样式).png",
+      "mimeType": "image/png",
+      "url": "http://localhost:3031/uploads/04-商品页(选购样式).png",
+      "path": "/Users/wuhaiyang/Desktop/Vue3-Composition-API视频/Vue3组合式API实战图片上传/vue-drive/server/uploads/04-商品页(选购样式).png",
+      "createdAt": 1649255002731,
+      "id": 25
+    },
+    {
+      "name": "01-商品页.png",
+      "mimeType": "image/png",
+      "url": "http://localhost:3031/uploads/01-商品页.png",
+      "path": "/Users/wuhaiyang/Desktop/Vue3-Composition-API视频/Vue3组合式API实战图片上传/vue-drive/server/uploads/01-商品页.png",
+      "createdAt": 1649255002732,
+      "id": 26
+    },
+    {
+      "name": "07-商家页.png",
+      "mimeType": "image/png",
+      "url": "http://localhost:3031/uploads/07-商家页.png",
+      "path": "/Users/wuhaiyang/Desktop/Vue3-Composition-API视频/Vue3组合式API实战图片上传/vue-drive/server/uploads/07-商家页.png",
+      "createdAt": 1649255002737,
+      "id": 27
+    },
+    {
+      "name": "07-商家页.png",
+      "mimeType": "image/png",
+      "url": "http://localhost:3031/uploads/07-商家页.png",
+      "path": "/Users/wuhaiyang/Desktop/Vue3-Composition-API视频/Vue3组合式API实战图片上传/vue-drive/server/uploads/07-商家页.png",
+      "createdAt": 1649255074415,
+      "id": 28
+    }
+  ]
+}
