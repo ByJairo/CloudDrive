@@ -1,7 +1,4 @@
-# Vue 3 + Vite
+# 停止更新
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+作为想放在首页的首个项目让我很伤心,因为写到一半写不下去了,具体问题在Myfiles中修改全局组件Toast的show状态为true无法响应
+重命名这个功能出现了BUG但是我找不到在哪,不能推倒重做,挂在主页警示自己
